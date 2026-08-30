@@ -5,12 +5,12 @@ import streamlit as st
 
 APP_CSS = r'''
     .block-container {
-        padding-top: 1rem;
+        padding-top: 2.2rem;
         padding-bottom: 3rem;
         max-width: 1500px;
     }
     .hero {
-        padding: 1.35rem 1.55rem;
+        padding: 1.7rem 1.55rem 1.35rem 1.55rem;
         border-radius: 20px;
         background: linear-gradient(120deg, rgba(34,197,94,.14), rgba(59,130,246,.10));
         border: 1px solid rgba(125,125,125,.18);
