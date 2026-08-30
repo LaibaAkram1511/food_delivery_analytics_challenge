@@ -1,0 +1,92 @@
+{
+  "clean_rows": 38129,
+  "remaining_missing": 0,
+  "delay_30min": {
+    "threshold_min": 30.0,
+    "total": 38129,
+    "delayed_count": 11721,
+    "on_time_count": 26408,
+    "delayed_pct": 30.740381337040045,
+    "on_time_pct": 69.25961866295995,
+    "avg_delayed_time": 37.95717088985582
+  },
+  "slowest_hour": {
+    "order_hour": 20.0,
+    "avg_delivery_time": 31.511885019347705,
+    "deliveries": 3618.0,
+    "delayed_pct": 51.99004975124378
+  },
+  "festival": [
+    {
+      "Festival": "Yes",
+      "avg_delivery_time": 45.495448634590375,
+      "deliveries": 769,
+      "delayed_pct": 100.0
+    },
+    {
+      "Festival": "No",
+      "avg_delivery_time": 26.19277301927195,
+      "deliveries": 37360,
+      "delayed_pct": 29.31477516059957
+    }
+  ],
+  "risk": [
+    {
+      "risk_level": "Low",
+      "deliveries": 18634,
+      "avg_delivery_time": 22.816035204464956,
+      "delayed_pct": 14.232048942792744,
+      "avg_distance_km": 7.401197269062431
+    },
+    {
+      "risk_level": "Medium",
+      "deliveries": 9080,
+      "avg_delivery_time": 27.12544052863436,
+      "delayed_pct": 32.61013215859031,
+      "avg_distance_km": 10.844410485935688
+    },
+    {
+      "risk_level": "High",
+      "deliveries": 10415,
+      "avg_delivery_time": 32.84637542006721,
+      "delayed_pct": 58.6461833893423,
+      "avg_distance_km": 13.04259327983022
+    }
+  ],
+  "decision_summary": {
+    "worst_traffic": {
+      "condition": "Jam",
+      "avg_delivery_time": 31.417755856966707
+    },
+    "distance_correlation": 0.3220007649918812,
+    "worst_weather_traffic": {
+      "weather": "Fog",
+      "traffic": "Jam",
+      "avg_delivery_time": 36.87958607714017
+    },
+    "delay": {
+      "threshold_min": 30.0,
+      "total": 38129,
+      "delayed_count": 11721,
+      "on_time_count": 26408,
+      "delayed_pct": 30.740381337040045,
+      "on_time_pct": 69.25961866295995,
+      "avg_delayed_time": 37.95717088985582
+    },
+    "worst_hour": {
+      "hour": 20,
+      "avg_delivery_time": 31.511885019347705,
+      "delayed_pct": 51.99004975124378
+    },
+    "festival_impact": {
+      "festival_avg": 45.495448634590375,
+      "non_festival_avg": 26.19277301927195,
+      "difference_min": 19.302675615318424
+    },
+    "high_risk": {
+      "deliveries": 10415,
+      "avg_delivery_time": 32.84637542006721,
+      "delayed_pct": 58.6461833893423
+    }
+  }
+}

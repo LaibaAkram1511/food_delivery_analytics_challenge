@@ -1,0 +1,23 @@
+{
+  "rows": 38964,
+  "columns": 22,
+  "avg_delivery_time_min": 26.582,
+  "min_delivery_time_min": 10,
+  "max_delivery_time_min": 54,
+  "avg_distance_km": 9.765,
+  "avg_numeric_speed_kmh": 23.59,
+  "avg_rating": 4.632,
+  "avg_age": 29.607,
+  "distance_time_correlation": 0.3215,
+  "q1_worst_traffic": "Jam",
+  "q1_avg_time": 31.44,
+  "q3_worst_weather": "Fog",
+  "q3_worst_traffic": "Jam",
+  "q3_avg_time": 36.889,
+  "distance_band_avg_times": {
+    "0\u20135 km": 22.42,
+    "5\u201310 km": 24.639,
+    "10\u201315 km": 30.092,
+    "15+ km": 30.077
+  }
+}

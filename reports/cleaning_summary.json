@@ -1,0 +1,48 @@
+{
+  "raw_rows": 38964,
+  "clean_rows": 38129,
+  "rows_removed": 835,
+  "raw_missing": {
+    "Delivery_person_Age": 1019,
+    "Delivery_person_Ratings": 1055,
+    "Time_Orderd": 835
+  },
+  "remaining_missing_total": 0,
+  "fill_report": {
+    "Delivery_person_Age": {
+      "missing_before_fill": 184,
+      "filled_from_rider_median": 184,
+      "filled_from_dataset_median": 0,
+      "dataset_median": null
+    },
+    "Delivery_person_Ratings": {
+      "missing_before_fill": 220,
+      "filled_from_rider_median": 220,
+      "filled_from_dataset_median": 0,
+      "dataset_median": null
+    }
+  },
+  "q1": {
+    "Road_traffic_density": "Jam",
+    "avg_delivery_time": 31.417755856966707,
+    "median_delivery_time": 31.0,
+    "deliveries": 12165
+  },
+  "q2_corr": 0.3220007649918812,
+  "q3": {
+    "Weather_conditions": "Fog",
+    "Road_traffic_density": "Jam",
+    "avg_delivery_time": 36.87958607714017,
+    "deliveries": 2126
+  },
+  "metrics": {
+    "total_deliveries": 38129,
+    "avg_delivery_time": 26.582076634582602,
+    "min_delivery_time": 10.0,
+    "max_delivery_time": 54.0,
+    "avg_distance_km": 9.762117184647831,
+    "avg_speed_kmh": 23.57951516852251,
+    "avg_rating": 4.632278580607937,
+    "avg_age": 29.607988670041177
+  }
+}
